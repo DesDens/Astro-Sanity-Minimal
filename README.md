@@ -76,3 +76,5 @@ You'll be asked to create an account with your Google or Github login, or you ca
 
 IMPORTANT: To add or update posts from sanity you NEED to restart the astro site:
 Ctrl+C in cmd to terminate the current state and redo npm run dev/npm start
+
+However DO NOT touch any major code the original author for this repo had for the sanity export to astro.js to work. That's the data/settings.js.
