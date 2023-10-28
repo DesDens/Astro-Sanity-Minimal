@@ -54,8 +54,8 @@ Follow the manual steps below:
 
 ### To run your Astro site
 
-1.  Open a terminal located at the astro folder
-2.  `npm install`
+1.  Open a terminal(or go inside the actual folder itseld and run in cmd: "code ." in VS code) located at the astro folder
+2.  `npm install astro`
 3.  `npm start`
 4.  Your Astro site should be running on [http://localhost:3000](http://localhost:3000)
 5.  `npm run build` to build to production locally
