@@ -73,3 +73,6 @@ You'll be asked to create an account with your Google or Github login, or you ca
 3.  `npm start`
 4.  Your Astro site should be running on [http://localhost:3000](http://localhost:3000)
 5.  `npm run build` to build to production locally
+
+IMPORTANT: To add or update posts you NEED to restart the astro site:
+Ctrl+C in cmd to terminate the current state and redo npm run dev/npm start
