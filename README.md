@@ -33,13 +33,27 @@ Follow the manual steps below:
 ### Initial Sanity Setup
 
 1. [Create a repo from this template](https://github.com/jaydanurwin/astro-sanity-minimal-starter/generate)
+
+Start by setting up the Sanity Studio using node package manager. To set up, run:
+
+npm create sanity@latest
+
+You'll be asked to create an account with your Google or Github login, or you can choose to log in with a dedicated email and password. Afterward, you can create a new project, where you'll be asked to choose a project template. Select the blog schema template. First, though, you'll need to give your project and dataset a name (you can add more datasets if you need one for testing) and choose the path to your studio folder (let's pick studio). You can also choose if you want to use TypeScript and which package manager to use.
+
+√ Fetching existing projects
+? Select project to use studio-test [projectID]
+? Select dataset to use production
+? Project output path: H:\Astro JS Projects\astro-sanity-minimal-starter-main\studio-test
+? Select project template Blog (schema)
+? Do you want to use TypeScript? No
+√ Bootstrapping files from template
+√ Resolving latest module versions
+√ Creating default project files
+? Package manager to use for installing dependencies? npm
+
 2. If you don't have the Sanity CLI already run `npm install -g @sanity/cli`
-3. Open a terminal from root folder of the project
-4. `cd sanity`
-5. `sanity install`
-6. `sanity init` and follow the prompts (you will need to create a Sanity account if you haven't already)
-8. Navigate to the astro folder
-7. Rename `.env.template` to `.env` and 
+3. Open a terminal from root folder of the project or open the newly creatd sanity folder in Windows/Mac.
+
 8. Replace the PUBLIC_SANITY_PROJECT_ID value with your token ID
 
 **Note:** You will want to add http://localhost:3000 to your allowed CORS orgins in your Sanity project settings at [https://manage.sanity.io](https://manage.sanity.io)
