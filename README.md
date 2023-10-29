@@ -60,9 +60,8 @@ You'll be asked to create an account with your Google or Github login, or you ca
  
 ### To run your Sanity Studio
 
-1. Open a terminal located at the sanity folder
-2. `sanity install`
-3. `sanity start`
+1. Open a terminal/cmd located at the sanity folder
+3. `npm run dev/npm start`
 4. Your studio should be running on [http://localhost:3333](http://localhost:3333)
 5.  Open [http://localhost:3333](http://localhost:3333) and copy the project ID from the Project info section
 
@@ -70,9 +69,10 @@ You'll be asked to create an account with your Google or Github login, or you ca
 
 1.  Open a terminal(or go inside the actual folder itseld and run in cmd: "code ." in VS code) located at the astro folder
 2.  `npm install astro`
-3.  `npm start`
-4.  Your Astro site should be running on [http://localhost:3000](http://localhost:3000)
-5.  `npm run build` to build to production locally
+3.  Modify the "astro.config.mjs" by replacing the [projectID] with the ID of your sanity project studio
+4.  `npm start`
+5.  Your Astro site should be running on [http://localhost:3000](http://localhost:3000)
+6.  `npm run build` to build to production locally
 
 IMPORTANT: To add or update posts from sanity you NEED to restart the astro site:
 Ctrl+C in cmd to terminate the current state and redo npm run dev/npm start
